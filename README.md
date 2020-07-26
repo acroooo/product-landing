@@ -1,2 +1,2 @@
 # Product Landing
-Product landing web for freecodecamp projects, with pure HTML - CSS. &lt;br>See demo on : https://codepen.io/acroooo/pen/YzwMpQx
+Product landing web for freecodecamp projects, with pure HTML - CSS. <br>See demo on : https://codepen.io/acroooo/pen/YzwMpQx
