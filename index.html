@@ -27,22 +27,68 @@
 
         <div class="container" id="1">
 
-            <div class="title">
-                <h1 class="logo">Vue.js Landing</h1>
+            <div id="titles">
+                <h1 id="title">Vue.js Landing</h1>
+            </div>
+            <div class="features">
+                <p class="feat">Approachable</p>
+                <p class="feat">Versatile</p>
+                <p class="feat">Performant</p>
             </div>
 
             <div><img src="https://miro.medium.com/max/1000/1*goSuHxAHqRR8alv_h_3nCw.png" alt="logo" id="center-img" />
             </div>
         </div>
     </header>
+    <div class="container">
+        <p id="description">Vue.js is a progressive framework for building user interfaces. Unlike other monolithic
+            frameworks, Vue is designed from the ground up to be incrementally adoptable.
+            <br>The core library is focused on the view layer only, and is easy to pick up and integrate with other
+            libraries or existing projects.
+            <br>On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when
+            used in combination with modern tooling and supporting libraries.</p>
+    </div>
     <div id="video">
 
     </div>
-    <form id="form">
-        <input id="email" type="email" placeholder="Email here...">
-        <a href="mailto: https://www.freecodecamp.com/email-submit" <button id="submit" type="submit" title="Submit">
-    </form>
+    <div id="container-row">
 
+        <div class="container">
+            <p id="description">Suscribe us for new features</p>
+
+        </div>
+        <div class="container">
+            <form id="survey-form" action="https://www.freecodecamp.com/email-submit">
+                <label id="name-label">Name</label>
+                <input id="name" type="text" placeholder="Ex: 'John'" required></input>
+                <label id="email-label">Email</label>
+                <input id="email" type="email" placeholder="Ex : 'john@enterprise.com'" required>
+                <label id="number-label">Age</label>
+                <input id="number" type="number" min="18" max="99" placeholder="18" required></input>
+                <label>Career</label>
+                <select id="dropdown">
+                    <option>Student</option>
+                    <option>Front Developer</option>
+                    <option>Back Developer</option>
+                    <option>Dev Ops</option>
+                </select>
+                <div id="use">
+                    <label>Use</label>
+                    <input type="radio" name="use" value="Personal">Personal</input>
+                    <input type="radio" name="use" value="Enterprise">Enterprise</input></div>
+                <div id="checkboxes">
+                    <label id="check">send me</label>
+                    <input type="checkbox" value="checkbox">Updates</input>
+                    <input type="checkbox" value="checkbox">Newsletter</input>
+                    <input type="checkbox" value="checkbox">All</input>
+                </div>
+                <div id="comments">
+                    <label>Extra comments</label>
+                    <textarea></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <!-- JS Jquery, Popper, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

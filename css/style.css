@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+
 body{
-  background-color: #39b883}
+  background-image: linear-gradient(to bottom right,black, #39b883, #39b883, black)}
 nav{
   display:flex;
   flex-direction: row;
@@ -31,6 +34,19 @@ li{
   align-items: center;
   justify-content: center;
 }
+
+#title{
+  padding-left: 9px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: ;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 2px black;
+  font-size: 50px;
+    background: -webkit-linear-gradient(#1d2530, #39b883);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 a{
   text-decoration: none;
   margin-right: 15px;
@@ -41,12 +57,24 @@ a{
   color: #00c180;
 }
 
-div.title{
+div#titles{
   display: flex;
-  font-family: 'Open Sans Condensed';
+  flex-direction: column;
+}
+.features{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.feat{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
   text-transform: uppercase;
-  color: #1d2530;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 2px;
+  font-size: 20px;
 }
 
 a:hover{
@@ -55,4 +83,44 @@ a:hover{
   padding-left: 8px;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+#center-img{
+  border: 1px solid white;
+}
+#description{
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: 1px solid white;
+  margin: 15%;
+  margin-top:0;
+  background-color: #231f20;
+  padding: 10px;
+}
+#container-row{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #231f20;
+  width: 300px;
+  height: 300px;
+  text-transform: uppercase;
+  border: 1px solid white;
+
+}
+#comments{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
